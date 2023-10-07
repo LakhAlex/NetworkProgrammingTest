@@ -20,7 +20,7 @@ for response in socket.getaddrinfo('www.kyungnam.ac.kr', 'http'):
     print('Type:           ', types[socktype])
     print('Protocol:       ', protocols[proto])
     print('Canonical name: ', canonname)
-    print('Socket address: ', sockaddr)
+    print('실습2-Socket address: ', sockaddr)
     print()
 
 """
@@ -29,7 +29,7 @@ Family:          AF_INET
 Type:            SOCK_STREAM
 Protocol:        IPPROTO_IP
 Canonical name:  
-Socket address:  ('223.194.236.178', 80)
+실습2-Socket address:  ('223.194.236.178', 80)
 -----------------------------------------
 AF_INET : 가장 보편적인 주소유형, 4바이트 길이(192.168.0.1) / IP주소
 SOCK_STREAM : 신뢰성 있느 전송을 보장하는 TCP 프로토콜 사용(HTTP)
